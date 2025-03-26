@@ -1,18 +1,25 @@
 
-// Aula de Constantes,If e Else
+// Aula 03 - Constantes,If e Else
 
 // constante - oque é? {um dado que não é variavel}
-// não pode ser mudado, tem sempre o mesmo valor.
+// Constantes são valores fixos que não podem ser alterados 
+// depois de serem definidos. Elas são usadas quando queremos
+// garantir que um valor permaneça o mesmo durante toda a execução
+// do programa.
 
-// exemplo da constante
-const temperatura = 20
+// exemplo da constante temperatura
+
+const temperatura = 30
+// ou let que seria una variavel na temperatura
+
+let temperaturas = 20
 
 const quente = "Está muito quente! Beba bastante água.";
 const agradavel = "O clima está agradável, aproveite o dia!";
 const frio = "Está frio! Vista um casaco.";
 
 // exemplo do if simples
-if(temperatura > 30){
+if(temperatura > 29){
     console.log(quente);
 } else if (temperatura >= 20){
     console.log(agradavel);
