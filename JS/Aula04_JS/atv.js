@@ -2,7 +2,7 @@
 // Aula de programação - Desenvolvimento Web 04
 // CONSTANTES E TAREFAS PARA FIXAÇÃO
 
-let peso = 30
+let peso = 40
 let altura = 1.53
 let imc = peso / (altura * altura);
 
@@ -26,7 +26,6 @@ if (imc <= 18.4) {
 } else if (imc <= 29.9) {
     console.log(sobrepeso);
 } else if (imc <= 39.9) {
-
     console.log(obesidade);
 } else {
     console.log(obesidadeGrave);

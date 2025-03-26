@@ -1,7 +1,7 @@
 
 // exemplo de estrutura IF 
 
-let gostodePraia = false
+let gostodePraia = true
 
 if (gostodePraia != true) {
     console.log('odeio praia');
@@ -10,3 +10,11 @@ if (gostodePraia != true) {
         }
 
 // esse numero e maior ou igual a 1 
+
+console.log(1 =='1');
+console.log(1 <= 1);
+console.log(1 === 1); 
+
+// triplo igual, vai falar a verdade 
+
+

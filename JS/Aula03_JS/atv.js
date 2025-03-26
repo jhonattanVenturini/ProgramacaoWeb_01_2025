@@ -5,7 +5,7 @@
 let sabor1 = 'flocus'
 let sabor2 = 'Leite condenado'
 let sabor3 = 'chocolate'
-let saborEscolhido = 'nata goiaba'
+let saborEscolhido = sabor1
 
 if (saborEscolhido == sabor1) {
     console.log('seu sorvete, tá pronto chefia e o sabor é', saborEscolhido);
