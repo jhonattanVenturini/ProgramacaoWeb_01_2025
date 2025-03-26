@@ -18,7 +18,7 @@ const obesidadeGrave = "Você precisa ir ao médico urgentemente!";
 console.log("Olá amigos,");
 console.log("Vamos calcular o seu IMC?");
 
-console.log(`O seu IMC é: ${imc.toFixed(2)}`);
+console.log('O seu IMC é:', imc);
 
 if (imc <= 18.4) {
     console.log(magreza);
