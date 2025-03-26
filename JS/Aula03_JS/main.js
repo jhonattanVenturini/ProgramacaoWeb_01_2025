@@ -35,6 +35,7 @@ else{ // exemplo do else
     console.log(frio);
 }
  
+let idade = 14 
 
 
 
