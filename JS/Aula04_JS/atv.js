@@ -1,6 +1,8 @@
 
 // Aula de programação - Desenvolvimento Web 04
-// CONSTANTES E TAREFAS PARA FIXAÇÃO
+// CONSTANTES,IF, ELSE, ELSE IF
+// crie 3 variaveis: ultizando o mesmo da aula anterior do IMC
+// Definição de mensagens baseadas na faixa de IMC
 
 let peso = 40
 let altura = 1.53
