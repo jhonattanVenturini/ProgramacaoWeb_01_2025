@@ -8,11 +8,72 @@
 // Se o serviço não for encontrado, informa que não há disponibilidade.
 
 
-// 3.2. Sistema de Atendimento de Clínica Médica
+// 3.3. Sistema de Atendimento de Escola de Idiomas
 // 📌 Descrição:
-// O sistema contém um array de especialidades médicas (cardiologia, ortopedia, dermatologia).
-// O cliente escolhe uma especialidade, e o sistema agenda automaticamente uma consulta.
-// Se o cliente escolher cardiologia, o sistema agenda com um especialista do coração.
-// Se escolher ortopedia, agenda com um especialista em ossos.
-// Se escolher dermatologia, agenda com um especialista em pele.
-// Se a especialidade não estiver disponível, informa que precisa de um agendamento manual.
+console.log('--------------------------------------------------');
+console.log('Bem-vindo à WORDSCHOOL! 🌍');
+console.log('Escolha o idioma que deseja aprender:');
+
+let idiomas = ['Inglês', 'Espanhol', 'Francês'];
+let idiomaEscolhido = 'Italiano'; 
+let resposta = 'Sim'; 
+let historicoMatriculas = []; 
+
+// Exibe os idiomas disponíveis
+console.log("Idiomas disponíveis:", idiomas.join(", "));
+
+// Verifica se o idioma escolhido está na lista
+if (idiomas.includes(idiomaEscolhido)) {
+    console.log(`Você escolheu ${idiomaEscolhido}.`);
+
+    // Pergunta se deseja confirmar a matrícula
+    if (resposta.toLowerCase() === "sim") {
+        historicoMatriculas.push(`Matrícula confirmada em ${idiomaEscolhido}.`);
+        console.log(`Parabéns! Você foi matriculado no curso de ${idiomaEscolhido}. 🎉`);
+    } else {
+        historicoMatriculas.push(`Matrícula recusada para ${idiomaEscolhido}.`);
+        console.log("Matrícula não realizada. Caso mude de ideia, estamos à disposição!");
+    }
+} else {
+    console.log("Desculpe, esse idioma não está disponível no momento.");
+}
+
+// Exibe o histórico de matrículas
+console.log("📜 Histórico de Matrículas:");
+console.log(historicoMatriculas);
+console.log('--------------------------------------------------');
+
+
+// 3.4. Sistema de Atendimento de Escola de Música
+// 📌 Descrição:
+// O sistema contém um array de instrumentos musicais (violão, piano, bateria).
+// O cliente escolhe um instrumento, e o sistema verifica a disponibilidade.
+// Se o cliente escolher violão, informa que há aulas disponíveis.
+// Se escolher piano, informa que há aulas disponíveis.
+// Se escolher bateria, informa que há aulas disponíveis.
+// Se o instrumento não estiver disponível, informa que não há aulas disponíveis.
+
+console.log('--------------------------------------------------');
+console.log('🎵 Bem-vindo à de MusicFy! 🎶');
+console.log('Escolha um instrumento para verificar a disponibilidade de aulas:');
+
+let instrumentos = ['Violão', 'Piano', 'Bateria']; 
+let instrumentoEscolhido = 'Piano'; 
+let historicoAulas = []; 
+
+// Exibe os instrumentos disponíveis
+console.log("🎼 Instrumentos disponíveis:", instrumentos.join(", "));
+
+// Verifica se o instrumento está disponível e armazena no array
+if (instrumentos.includes(instrumentoEscolhido)) {
+    let mensagem = `✅ Há aulas disponíveis para ${instrumentoEscolhido}.`;
+    historicoAulas.push(mensagem);
+} else {
+    let mensagem = `❌ Infelizmente, não temos aulas disponíveis para ${instrumentoEscolhido}.`;
+    historicoAulas.push(mensagem);
+}
+
+// Exibe o histórico de consultas
+console.log("📜 Histórico de Consultas:");
+console.log(historicoAulas);
+console.log('--------------------------------------------------');
