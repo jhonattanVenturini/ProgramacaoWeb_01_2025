@@ -16,7 +16,7 @@ console.log('Bem-vindo à Hamburgueria! JHOWBURGUER 😎');
 console.log('Escolha o tamanho do seu lanche:');
 
 // colocar o tamanho do lanche aqui 
-let tamanho = 'médio'; // Pode ser "pequeno", "médio" ou "grande"
+let tamanho = 'gigante'; // Pode ser "pequeno", "médio" ou "grande"
 
 
 if(tamanho === 'pequeno'){
@@ -29,7 +29,7 @@ else if(tamanho === 'grande'){
     console.log(`Olá, seu pedido ${tamanho} estará pronto em 10 minutos! 🍔`);	
 } 
 else {
-    console.log("Tamanho inválido! Escolha entre pequeno, médio ou grande.");
+    console.log("Tamanho inválido! Escolha entre pequeno, médio ou grande.⚠⚠⚠⚠");
 }
 console.log('Obrigado por escolher a JHOWBURGUER! 🍔');
 // FINAL DO SISTEMA DE ATENDIMENTO DE HAMBURGUERIA

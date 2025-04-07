@@ -9,7 +9,7 @@ for (let i = 0; i < 5; i++) {
 // 2. For percorrendo um array
 const frutas = ["maçã", "banana", "laranja"];
 
-for (let i = 4; i < frutas.length; i++) {
+for (let i = 2; i < frutas.length; i++) {
     console.log(frutas[i]);
 }
 
@@ -31,6 +31,8 @@ for (let chave in pessoa) {
 for (let i = 5; i >= 0; i--) {
     console.log("Contagem regressiva:", i);
 }
+
+
 
 
 
