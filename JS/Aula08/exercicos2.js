@@ -14,7 +14,7 @@ console.log('--------------------------------------------------');
 console.log('Bem-vindo à Pizzaria do JHONVEN ! 🍕') ;
 console.log('Escolha o sabor da sua pizza:');   
 
-let pizzas = 'Calabresa'; // Pode ser "Calabresa", "Mussarela" ou "Frango com Catupiry"
+let pizzas = 'QUATROQUEIJOS'; // Pode ser "Calabresa", "Mussarela" ou "Frango com Catupiry"
 
 switch (pizzas) {
     case value = 'Calabresa':
