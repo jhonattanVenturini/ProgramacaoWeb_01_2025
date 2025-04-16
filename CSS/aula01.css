@@ -92,6 +92,7 @@ form input[type="text"], form input[type="email"] {
     margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 form input[type="submit"] {
