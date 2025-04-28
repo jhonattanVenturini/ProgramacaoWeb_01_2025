@@ -1,0 +1,24 @@
+body {
+  background-color: #121212;
+  color: #fff;
+  padding: 20px 20px 20px 20px;
+  border: #fff;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 50px;
+  background-color: #fff;
+  border-radius: 15px;
+  width: 30%;
+  color: #121212;
+}
+li{
+    background-color: #121212;  
+    color: #fff;
+    padding: 20px;
+    border-radius: 13px;
+    text-transform: none;
+}
