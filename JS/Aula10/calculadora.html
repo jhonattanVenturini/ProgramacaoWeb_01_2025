@@ -1,0 +1,38 @@
+<script>
+  function calculadora() {
+    alert("Seja bem-vindo a CalculandoTECH 👨‍💻");
+
+    let num1 = parseFloat(prompt("Digite o primeiro número:"));
+    let operador = prompt("Digite o operador (+, -, *, /):");
+
+    let num2 = parseFloat(prompt("Digite o segundo número:"));
+    let resultado;
+
+    if (isNaN(num1) || isNaN(num2)) {
+      alert("Você precisa digitar números válidos!");
+      return;
+    }
+
+    switch (operador) {
+      case "+":
+        resultado = num1 + num2;
+        break;
+      case "-":
+        resultado = num1 - num2;
+        break;
+      case "*":
+        resultado = num1 * num2;
+        break;
+      case "/":
+        resultado = num2 !== 0 ? num1 / num2 : "Erro: divisão por zero";
+        break;
+      default:
+        resultado = "Operador inválido!";
+    }
+
+    document.write(resultado);
+  }
+
+  // Executa a calculadora
+  calculadora();
+</script>

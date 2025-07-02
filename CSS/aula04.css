@@ -1,0 +1,32 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  padding: 40px;
+  background-color: #212121;
+  color: #fff;
+}
+header{
+  background-color: #121211;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+nav{
+  background-color: #121212;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;;
+}
+.inicio {
+  padding: 20px;
+  border-radius: 15px;
+}
+.inicio2 {
+  color: #333;
+  font-size: 24px;
+  background-color: #121212;
+  width: 70%;
+}

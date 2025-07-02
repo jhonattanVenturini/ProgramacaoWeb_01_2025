@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cadastro de Nomes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h2 {
+            background-color: #6200ea;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        script {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Abra o console (F12) para ver os nomes cadastrados</h2>
+
+    <script>
+        const totalCadastros = 3;
+        let nomes = [];
+
+        // Usando o for para cadastrar nomes
+        for (let i = 0; i < totalCadastros; i++) {
+            let nome = prompt(`Digite o nome ${i + 1}:`);
+            nomes.push(nome);
+        }
+
+        // Mostrando todos os nomes cadastrados no console
+        console.log("Nomes cadastrados:");
+        for (let i = 0; i < nomes.length; i++) {
+            console.log(`${i + 1}. ${nomes[i]}`);
+        }
+    </script>
+</body>
+
+</html>
